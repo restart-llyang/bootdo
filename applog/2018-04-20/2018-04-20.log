@@ -1,0 +1,31 @@
+2018-04-20 17:56:28 -Starting BootdoApplication v1.6.9 on dell-Vostro-5370 with PID 31528 (/home/lilong/git-devcloud/blog-docker/target/bootdo-docker-1.6.9.jar started by lilong in /home/lilong/git-devcloud/blog-docker)
+2018-04-20 17:56:28 -Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-04-20 17:56:28 -The following profiles are active: dev
+2018-04-20 17:56:28 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31b7dea0: startup date [Fri Apr 20 17:56:28 CST 2018]; root of context hierarchy
+2018-04-20 17:56:28 -HV000001: Hibernate Validator 5.3.6.Final
+2018-04-20 17:56:30 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-20 17:56:31 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$658846d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-20 17:56:32 -Bean 'shiroConfig' of type [com.bootdo.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$57e1757a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-20 17:56:32 -Bean 'userRealm' of type [com.bootdo.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-20 17:56:32 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-20 17:56:32 -Cache with name 'com.bootdo.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2018-04-20 17:56:32 -Added EhCache named [com.bootdo.system.shiro.UserRealm.authorizationCache]
+2018-04-20 17:56:32 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-20 17:56:33 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-20 17:56:33 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-20 17:56:33 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-20 17:56:33 -Tomcat initialized with port(s): 8080 (http)
+2018-04-20 17:56:33 -Starting service [Tomcat]
+2018-04-20 17:56:33 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-20 17:56:34 -Initializing Spring embedded WebApplicationContext
+2018-04-20 17:56:34 -Root WebApplicationContext: initialization completed in 5428 ms
+2018-04-20 17:56:34 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-20 17:56:34 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-20 17:56:34 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-20 17:56:34 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-20 17:56:34 -Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-04-20 17:56:34 -Filter xssFilter was not registered (disabled)
+2018-04-20 17:56:34 -Mapping filter: 'webStatFilter' to urls: [/*]
+2018-04-20 17:56:34 -Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2018-04-20 17:56:34 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-04-20 17:56:34 -Mapping servlet: 'dispatcherServlet' to [/]
